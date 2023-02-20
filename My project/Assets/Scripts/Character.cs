@@ -2,17 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Character : MonoBehaviour
+public class Character : MonoBehaviour //Script with the stats and most important characteristics of the character
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public float Health;//Health of the Character
+    public float Attack;//Attack of the Character
+    public string Side;//In wich side is the character fighting
+    public SpriteRenderer Render;//The render of the character
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
